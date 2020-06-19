@@ -1,0 +1,29 @@
+.nav{
+
+  &_list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &_item{
+    margin-right: 82px;
+
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+
+  &_link{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    &:hover,&:focus,&:active{
+      color: red;
+
+    }
+  }
+}

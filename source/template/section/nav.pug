@@ -1,0 +1,10 @@
+nav.nav
+  ul.nav_list
+    - var items = ['Articles', 'Locations', 'Videos', 'Sign in']
+    each item in items
+      if item==='Home'
+        li.nav_item
+          a.nav_link.nav_link-active(href="#")=item
+      else
+        li.nav_item
+          a.nav_link(href="#")=item
