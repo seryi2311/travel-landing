@@ -1,0 +1,36 @@
+.form{
+  &_wrapper{
+
+  }
+
+  &_info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  &_field{
+    width: 297px;
+    background: transparent url(../images/oval.png)  left center no-repeat;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 60px;
+    padding-left: 43px;
+
+    @include text_form;
+
+    &::placeholder{
+      @include text_form;
+    }
+  }
+
+  &_button{
+    width: 171px;
+    height: 58px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+  }
+}

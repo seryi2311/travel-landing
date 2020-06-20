@@ -1,5 +1,25 @@
 .intro{
-  height: 100vh;
+  min-height: 100vh;
   background: url(../images/Hero.jpg) no-repeat;
   background-size:cover;
+  padding: 263px;
+  color: #FFFFFF;
+
+
+  &_title{
+    max-width: 619px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 22px;
+
+
+    &_sub{
+      max-width: 546px;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 24px;
+      margin-bottom: 59px;
+    }
+  }
 }

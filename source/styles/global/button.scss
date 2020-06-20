@@ -1,0 +1,9 @@
+.button{
+  background: $button_color;
+  text-transform: uppercase;
+  border: none;
+  margin: auto;
+  &:hover, &:focus, &:active{
+  background-color:  lighten($button_color, 10%);
+  }
+}
