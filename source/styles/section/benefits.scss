@@ -1,4 +1,7 @@
 .benefits{
+  margin-bottom: 131px;
+
+
   &_wrapper{
     max-width: 1262px;
     background-color: white;
@@ -31,6 +34,7 @@
     &_item{
       width: 317px;
       margin-right: 55px;
+      margin-bottom: 112px;
 
       &_icon{
         margin-bottom: 37px;
@@ -59,9 +63,7 @@
         color: #006DFE;
 
         &:after{
-          content: url(../images/shape.png);
-          margin-left: 26px; 
-
+          @include arrow;
         }
 
       }

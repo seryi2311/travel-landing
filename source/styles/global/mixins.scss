@@ -4,3 +4,7 @@
   line-height: 24px;
   color: #fff;
 }
+@mixin arrow{
+  content: url(../images/shape.png);
+  margin-left: 26px;
+}

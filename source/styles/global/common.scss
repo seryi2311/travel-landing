@@ -2,9 +2,19 @@
   max-width: 1060px;
   margin: auto;
 }
+.wrapper{
+  max-width: 1262px;
+  margin: 0 auto;
+}
 .is-hidden{
   display: none!important
 }
 .visually-hidden{
   font-size: 0;
+}
+.title_style{
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  color: #102746;  
 }
