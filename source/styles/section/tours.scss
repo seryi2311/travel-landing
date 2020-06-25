@@ -1,0 +1,54 @@
+.tours{
+  margin-bottom: 139px;
+
+  &_tour{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    margin-bottom: 75px;
+
+    &tours_tour_picture{
+
+      &_logo{
+
+      }
+    }
+
+    &_info{
+
+      &:first-child{
+      padding-left: 45px;
+    }
+
+
+      &_title{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+        color: #102746;
+        margin-bottom: 85px;
+
+      }
+
+      &_text{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #102746;
+        margin-bottom: 58px;
+      }
+
+      &_link{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #006DFE;
+
+        &:after{
+          @include arrow;
+        }
+      }
+    }
+  }
+}
