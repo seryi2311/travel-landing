@@ -1,0 +1,27 @@
+nav.footer_nav
+  ul.footer_nav_list
+    - var items = ['Company', 'About',  'Team', 'Careers']
+    each item in items
+      li.footer_nav_item
+        if item === 'Company'
+          a.footer_nav_link.footer_nav_link_big(href="#")=item
+        else
+          a.footer_nav_link.footer_nav_link(href="#")=item
+
+  ul.footer_nav_list
+    - var items = ['Locations', 'Tokyo','Kyoto', 'Osaka']
+    each item in items
+      li.footer_nav_item
+        if item === 'Locations'
+          a.footer_nav_link.footer_nav_link_big(href="#")=item
+        else
+          a.footer_nav_link.footer_nav_link(href="#")=item
+
+  ul.footer_nav_list
+    - var items = ['Social Media', 'Facebook','Twitter', 'Instagram']
+    each item in items
+      li.footer_nav_item
+        if item === 'Social Media'
+          a.footer_nav_link.footer_nav_link_big(href="#")=item
+        else
+          a.footer_nav_link.footer_nav_link(href="#")=item
