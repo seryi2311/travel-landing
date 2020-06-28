@@ -1,0 +1,89 @@
+.top{
+  margin-bottom: 86px;
+
+
+  &_title{
+    margin-bottom: 64px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    color: #102746;
+
+    @include strip;
+  }
+
+  &_cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 57px;
+
+
+    &_card{
+      display: flex;
+      flex-direction: column;
+      &_pic{
+        position: relative;
+        margin-bottom: 45px;
+      }
+
+        &_picture{
+
+        }
+
+        &_description{
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          color: #102746;
+          margin-bottom: 31px;
+        }
+
+        &_button{
+          max-width: 128px;
+          background: #006DFE;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          color: #FFFFFF;
+          padding: 12px 20px;
+          margin: auto 0 0 0;
+        }
+
+        &_stats{
+          position: absolute;
+          left: 0;
+          bottom: 4px;
+          width: 100%;
+          height: 55px;
+          background: rgba(21, 24, 36, 0.6);
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: flex-end;
+          padding: 16px 25px;
+
+          &_title{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin: 0 auto 0  0;
+          }
+
+          &_like{
+            @include stats;
+            padding-right: 20px;
+            background: url(../images/like.png) no-repeat right;
+            margin-right: 14px;
+          }
+
+          &_comment{
+            @include stats;
+            padding-right: 20px;
+            background: url(../images/comment.png) no-repeat right;
+
+          }
+        }
+    }
+  }
+}
