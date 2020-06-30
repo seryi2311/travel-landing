@@ -15,7 +15,8 @@
   &_cards{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 57px;
+    grid-column-gap: 57px;
+    grid-row-gap: 57px;
 
 
     &_card{
@@ -26,9 +27,9 @@
         margin-bottom: 45px;
       }
 
-        &_picture{
-
-        }
+      &_picture{
+        width:100%;
+      }
 
         &_description{
           font-weight: normal;
