@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/seryi2311/test#readme",
   "devDependencies": {
-    "autoprefixer": "^9.8.0",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
@@ -26,8 +25,7 @@
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp.spritesmith": "^6.11.0",
-    "rimraf": "^3.0.2",
-    "source-map": "^0.7.3"
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
