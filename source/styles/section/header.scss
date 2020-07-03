@@ -17,6 +17,13 @@
     align-items:flex-end;
     justify-content: space-between;
     padding-top: 56px;
+
+    &_active{
+      padding-top: 20px;
+    }
+  }
+  &_active{
+    background-color: #1071be;
   }
 }
 
